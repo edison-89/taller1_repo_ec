@@ -1,0 +1,65 @@
+.botonesViejos {
+    color: hotpink;
+}
+
+#idnombre {
+    color: red;
+}
+
+#idbotonnuevo2021 {
+    color: red;
+}
+
+a[href] {
+    color: blue;
+    background-color: yellow;
+    opacity: 0.1;
+}
+
+#borde1 {
+    border-style: dotted;
+    visibility: hidden;
+}
+
+#borde2 {
+    border-style: dashed;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.borde7 {
+    border-style: solid;
+    padding-top: 70px;
+    height: 500px;
+    width: 320px;
+}
+
+.borde8 {
+    margin: 70px;
+    border-style: solid;
+    height: 550px;
+    width: 950px;
+}
+
+#borde6 {
+    padding: 100px 50px 20px 70px;
+}
+
+#borde10 {
+    margin: 100px 50px 20px 70px;
+}
+
+#borde9 {
+    margin: 100px 50px;
+}
+
+#borde8 {
+    margin: 70px;
+}
+
+#borde11 {
+    border-style: dotted dashed solid none;
+}

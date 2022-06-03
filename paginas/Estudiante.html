@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/misprimerosestilos.css">
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">-->
+    <title>Nuevo Estudiante</title>
+    <style>
+        .botonesNuevos {
+            color: yellow;
+            background-color: black;
+        }
+        
+        h1 {
+            color: forestgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1>Estilo por elemento</h1>
+        <p>Texto de prueba de una url</p>
+        <table>
+            <tr>
+                <td><label for="idNombre">Nombre:</label></td>
+                <td><input type="text" id="idNombre"> </td>
+            </tr>
+            <tr>
+                <td><label for="idApellido">Apellido:</label></td>
+                <td><input type="text" id="idApellido"> </td>
+            </tr>
+            <tr>
+                <td><label for="idPais">Pais:</label></td>
+                <td><select name="select" id="idPais">
+                    <option value="E">Ecuador</option>
+                    <option value="C">Chile</option>
+                    <option value="A">Argentina</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="idNacimiento">Fecha Nacimiento:</label></td>
+                <td><input type="date" id="idNacimiento"> </td>
+            </tr>
+            <tr>
+                <td><label for="idClave">Password:</label></td>
+                <td><input type="password" id="idClave"> </td>
+            </tr>
+            <img src="../img/uce.png" alt="Imagen no encontrada">
+        </table>
+        <table>
+            <tr>
+                <td><button>Guardar</button></td>
+                <td><button style="color:white;background-color: blue;">Guardar con estilo en linea</button></td>
+                <td><button class="botonesNuevos">Guardar con estilo interno</button></td>
+                <td><button class="botonesViejos">Guardar con estilo externo</button></td>
+                <td><button id="idbotonnuevo2021">Guardar con estilo de id externo</button></td>
+                <td></td><input type="file"></td>
+                <td><button>Actualizar</button></td>
+                <td><button class="botonesNuevos">Eliminar</button></td>
+                <a href="https://www.google.com/">Click Aqui</a>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
